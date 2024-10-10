@@ -1,0 +1,15 @@
+.Mi_componente{
+    background-color:black;
+    border: 1px solid gray;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.Mi_component h1{
+    color:darkblue;
+}
+
+.Mi_component p{
+    color: darkgreen;
+}
