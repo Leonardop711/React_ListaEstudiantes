@@ -2,6 +2,7 @@ import axios from 'axios';
 import react, { useState, useEffect } from 'react';
 import Formulario from './assets/components/Formulario.jsx';
 import ListaEstudiante from './assets/components/ListaEstudiante.jsx';
+import Login from './assets/components/Login.jsx';
 
 function App() {
   const [estudiantes, setEstudiantes] = useState([]);
@@ -27,6 +28,7 @@ function App() {
   return (
     <div className="container text-center">
       <div className="row mt-3">
+        <Login/>
         <Formulario agregarEstudiante={agregarEstudiante} />
         <ListaEstudiante estudiantes={estudiantes} eliminarEstudiante={eliminarEstudiante} />
       </div>
